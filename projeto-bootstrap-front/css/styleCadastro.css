@@ -1,0 +1,23 @@
+
+#caixa {
+    width: 30%;
+    margin: 50px auto ;
+}
+
+#corpo h3 {
+    margin-top: 50px;
+    font-size: 18pt;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+#caixa input[type=submit] { 
+    float: right;
+}
+
+#rodape {
+    padding-top: 20px; 
+    padding-left: 20px; 
+}

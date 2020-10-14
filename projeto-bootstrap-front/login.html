@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/styleLogin.css" />
+  <link rel="stylesheet" href="bootstrap.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <!-- <h3>Menu</h3> -->
+  <div class="menu">
+    <header id="cabecario">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="home.html">
+          <img src="img/partelogo2.jpg" alt="logo2" width="70" height="50">
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="cadastro.html">Cadastro</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- <img src="#" alt="logo-tipo" title="logo-tipo" /> -->
+    </header>
+
+    <section id="corpo">
+      <div id="formulario-login">
+        <h1>Acesso do Usuário</h1>
+
+        <form id="login" action="login.html" method="POST">
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email"
+              min="5" maxlength="50" required>
+          </div>
+
+          <div class="form-group">
+            <input type="password" class="form-control" id="senha" placeholder="Password" min="1" maxlength="6"
+              required>
+          </div>
+
+          <div class="form-group ">
+            <a class="float-left" href="cadastro.html">cadastre-se agora</a>
+            <input type="submit" class="btn btn-primary" name="btn-enviar" value="Logar" />
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+  </div>
+  <script src="jquery.js"></script>
+  <script src="bootstrap.js"></script>
+  <script src="popper.js"></script>
+</body>
+
+</html>
